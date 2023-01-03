@@ -1,3 +1,6 @@
 i {
   font-size: 1.5rem;
 }
+i:hover {
+  color: darkslategray;
+}
