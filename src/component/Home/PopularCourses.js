@@ -10,6 +10,7 @@ const PopularCourses = () => {
         <p class=" display-6 fw-normal text-center">
           Popular Courses on JS Mentor
         </p>
+        <hr />
       </div>
 
       <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -17,12 +18,15 @@ const PopularCourses = () => {
           <div class="card h-100">
             <img src={jsFundamentals} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Fundamentals of JavaScript</h5>
+              <h5 class="card-title text-primary">
+                Fundamentals of JavaScript
+              </h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                voluptas soluta quas fugit, dolore minus error voluptate beatae
+                aliquid consectetur.
               </p>
+              <button className="btn btn-outline-primary">Enroll Now</button>
             </div>
           </div>
         </div>
@@ -30,12 +34,15 @@ const PopularCourses = () => {
           <div class="card h-100">
             <img src={fullStack} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">Full Stack Web Development </h5>
+              <h5 class="card-title text-primary">
+                Full Stack Web Development{" "}
+              </h5>
               <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
+                doloribus excepturi perferendis consequuntur quisquam aut
+                deserunt facere maiores libero mollitia!
               </p>
+              <button className="btn btn-outline-primary">Enroll Now</button>
             </div>
           </div>
         </div>
@@ -43,14 +50,15 @@ const PopularCourses = () => {
           <div class="card h-100">
             <img src={jhony5} class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title">
+              <h5 class="card-title text-primary">
                 Robotics and Automation with JavaScript
               </h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+              <p class="card-text ">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+                pariatur libero ex eos quaerat consectetur, voluptates ipsam et
+                eligendi saepe.
               </p>
+              <button className="btn btn-outline-primary">Enroll Now</button>
             </div>
           </div>
         </div>

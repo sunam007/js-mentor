@@ -26,8 +26,8 @@ const Hero = () => {
             Complete <br /> JavaScript Solution
           </h1>
           <p class="lead">
-            Build your career as a Web Developer or IOT engineer with our expert
-            JavaScript Mentors.
+            Build your career as a Web Developer or an IOT Engineer with our
+            expert JavaScript Mentors.
           </p>
           <div class="d-grid gap-2 d-md-flex justify-content-md-start">
             <button

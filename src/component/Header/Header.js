@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import "./Header.css";
 import logo from "../../assets/images/logo.png";
 
@@ -37,29 +37,29 @@ const Header = () => {
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <Link class="nav-link " aria-current="page" to="/">
+                <NavLink class="nav-link " aria-current="page" to="/">
                   Home
-                </Link>
+                </NavLink>
               </li>
               <li class="nav-item">
-                <Link class="nav-link " aria-current="page" to="/courses">
+                <NavLink class="nav-link " aria-current="page" to="/courses">
                   Courses
-                </Link>
+                </NavLink>
               </li>
               <li class="nav-item">
-                <Link class="nav-link " aria-current="page" to="/about">
+                <NavLink class="nav-link " aria-current="page" to="/about">
                   About
-                </Link>
+                </NavLink>
               </li>
               <li class="nav-item">
-                <Link class="nav-link " aria-current="page" to="/support">
+                <NavLink class="nav-link " aria-current="page" to="/support">
                   Support
-                </Link>
+                </NavLink>
               </li>
               <li class="nav-item">
-                <Link class="nav-link " aria-current="page" to="/classes">
+                <NavLink class="nav-link " aria-current="page" to="/classes">
                   My Class
-                </Link>
+                </NavLink>
               </li>
             </ul>
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">

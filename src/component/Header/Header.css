@@ -2,3 +2,17 @@
 * {
   font-family: "Poppins", sans-serif;
 }
+
+.nav-item a {
+  text-decoration: none;
+  padding: 10px;
+  color: rgba(37, 36, 36, 0.884);
+}
+
+.nav-item a:hover {
+  color: crimson;
+}
+
+.nav-item > .active {
+  color: crimson;
+}
