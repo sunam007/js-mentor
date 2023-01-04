@@ -5,7 +5,7 @@ const Course = ({ course }) => {
   const { name, image, price, instructor, star } = course;
   const navigate = useNavigate();
   const handleEnroll = () => {
-    navigate("/signup");
+    navigate("/login");
   };
   return (
     <div class="col">

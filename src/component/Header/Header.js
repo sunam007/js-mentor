@@ -6,7 +6,7 @@ import logo from "../../assets/images/logo.png";
 const Header = () => {
   const navigate = useNavigate();
   const handleLoginAndSignIn = () => {
-    navigate("/signup");
+    navigate("/login");
   };
   return (
     <header>

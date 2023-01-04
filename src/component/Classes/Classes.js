@@ -1,9 +1,10 @@
 import React from "react";
+import CheckOut from "../CheckOut/CheckOut";
 
 const Classes = () => {
   return (
     <div>
-      <h2>All my purchased Classes</h2>
+      <CheckOut />
     </div>
   );
 };
