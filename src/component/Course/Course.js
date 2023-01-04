@@ -13,7 +13,7 @@ const Course = ({ course }) => {
         <img src={image} class="card-img-top img-fluid" alt="..." />
         <div class="card-body">
           <h5 class="card-title text-primary">{name}</h5>
-          <p className="">Instructor: {instructor}</p>
+          <p className="">By: {instructor}</p>
           <p className="text-muted">Rating: {star}/5</p>
           <p className="text-success">Price: {price} BDT</p>
           <p class="card-text">
