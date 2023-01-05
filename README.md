@@ -1,6 +1,6 @@
 # JS MENTOR
 
-Visit [JS MENTOR](https:jsmentor.netlify.app) for total javaScript solution.
+Visit [JS MENTOR](https://jsmentor.netlify.app/) for total javaScript solution.
 
 ## Why Choose JS MENTOR ?
 
@@ -22,4 +22,4 @@ Visit [JS MENTOR](https:jsmentor.netlify.app) for total javaScript solution.
 - bootstra 5 used for responsiveness
 - firebase-authentication (future update)
 
-Visit our [github repo] (https://github.com/sunam007/js-mentor)
+Visit our [github repo](https://github.com/sunam007/js-mentor)
