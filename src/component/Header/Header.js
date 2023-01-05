@@ -57,8 +57,8 @@ const Header = () => {
                 </NavLink>
               </li>
               <li class="nav-item">
-                <NavLink class="nav-link " aria-current="page" to="/classes">
-                  My Class
+                <NavLink class="nav-link " aria-current="page" to="/dashboard">
+                  Dash Board
                 </NavLink>
               </li>
             </ul>

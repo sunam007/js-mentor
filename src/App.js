@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import "./App.css";
 import About from "./component/About/About";
-import Classes from "./component/Classes/Classes";
+import DashBoard from "./component/Classes/DashBoard";
 import Courses from "./component/Courses/Courses";
 import Footer from "./component/Footer/Footer";
 import Header from "./component/Header/Header";
@@ -20,7 +20,7 @@ function App() {
         <Route path="/courses" element={<Courses />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/support" element={<Support />}></Route>
-        <Route path="/classes" element={<Classes />}></Route>
+        <Route path="/dashboard" element={<DashBoard />}></Route>
         <Route path="/login" element={<Login />}></Route>
         <Route path="/signup" element={<SignUp />}></Route>
         <Route path="*" element={<NotFound />}></Route>

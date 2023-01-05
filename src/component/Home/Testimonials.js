@@ -2,58 +2,61 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="container p-4 mt-4">
+    <div className="container p-5 mb-5">
       <div className="py-3">
         <p className=" display-6 fw-normal text-center ">
-          Students Testimonials
+          What Student's say about JS Mentor's Courses
         </p>
         <hr />
       </div>
 
       <div className="row g-3">
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4 col-sm-12 text-center">
           <img
-            src="https://t4.ftcdn.net/jpg/00/88/53/89/360_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg"
+            src="https://i.ibb.co/9yrB5DP/client-1.jpg"
             className=" rounded-circle "
-            width={120}
-            height={120}
-            alt=""
+            width={150}
+            height={150}
+            alt="client"
           />
 
-          <h2>Tahmid Rafi</h2>
+          <h2 className="mt-3">Muhammad Nahiyan</h2>
           <p>
-            Real life projects and assignment helped me a lot. Now i am doing an
-            intern as a Front End JavaScript Developer.
+            Real life projects and assignment helped me understand the core
+            concepts better. I have built several unique projects and now i am
+            doing an intern as a Front End JavaScript Developer.
           </p>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4 col-sm-12 text-center">
           <img
-            src="https://t4.ftcdn.net/jpg/00/88/53/89/360_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg"
+            src="https://i.ibb.co/X29fLr0/client2.jpg "
             className=" rounded-circle "
-            width={120}
-            height={120}
-            alt=""
+            width={150}
+            height={150}
+            alt="client"
           />
 
-          <h2>Tahmid Rafi</h2>
+          <h2 className="mt-3">Sabreena Rashid</h2>
           <p>
-            Real life projects and assignment helped me a lot. Now i am doing an
-            intern as a Front End JavaScript Developer.
+            Animated classes helped me a lot to understand crucial topics. JS
+            Mentor's support system is blazing fast. Mentor's proper guidence
+            helped me become a successful programmer.
           </p>
         </div>
-        <div class="col-lg-4 text-center">
+        <div class="col-lg-4 col-sm-12 text-center">
           <img
-            src="https://t4.ftcdn.net/jpg/00/88/53/89/360_F_88538986_5Bi4eJ667pocsO3BIlbN4fHKz8yUFSuA.jpg"
+            src="https://i.ibb.co/GtyBssc/client3.jpg"
             className=" rounded-circle "
-            width={120}
-            height={120}
+            width={150}
+            height={150}
             alt=""
           />
 
-          <h2>Tahmid Rafi</h2>
+          <h2 className="mt-3">Ehsanul Haque</h2>
           <p>
-            Real life projects and assignment helped me a lot. Now i am doing an
-            intern as a Front End JavaScript Developer.
+            I took the Robotics and Automation course and i never had to look
+            back again. Now I am working as an Embedded Software Engineer in a
+            reputed company.
           </p>
         </div>
       </div>
