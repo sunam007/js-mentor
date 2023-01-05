@@ -2,10 +2,15 @@ import React from "react";
 import jsFundamentals from "../../assets/images/courses/javascript-fundamental.png";
 import fullStack from "../../assets/images/courses/fullstack.png";
 import jhony5 from "../../assets/images/courses/Johnny-Five.jpg";
+import { useNavigate } from "react-router";
 
 const PopularCourses = () => {
+  const navigate = useNavigate();
+  const handleEnroll = () => {
+    navigate("/dashboard");
+  };
   return (
-    <div className="container col-xxl-8 px-4 py-5">
+    <div className="container col-xxl-10 px-4 py-4">
       <div className="mb-5">
         <p class=" display-6 fw-normal text-center">
           Popular Courses on JS Mentor
@@ -21,12 +26,15 @@ const PopularCourses = () => {
               <h5 class="card-title text-primary">
                 Fundamentals of JavaScript
               </h5>
-              <p class="card-text">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-                voluptas soluta quas fugit, dolore minus error voluptate beatae
-                aliquid consectetur.
-              </p>
-              <button className="btn btn-outline-primary">Enroll Now</button>
+              <p className="">By: Syed Farhan </p>
+              <p className="text-muted">Rating: 5/5</p>
+              <p className="text-success">Price: 2000 BDT</p>
+              <button
+                onClick={handleEnroll}
+                className="btn btn-outline-primary"
+              >
+                Enroll Now
+              </button>
             </div>
           </div>
         </div>
@@ -37,12 +45,15 @@ const PopularCourses = () => {
               <h5 class="card-title text-primary">
                 Full Stack Web Development{" "}
               </h5>
-              <p class="card-text">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-                doloribus excepturi perferendis consequuntur quisquam aut
-                deserunt facere maiores libero mollitia!
-              </p>
-              <button className="btn btn-outline-primary">Enroll Now</button>
+              <p className="">By: Sumit Saha </p>
+              <p className="text-muted">Rating: 5/5</p>
+              <p className="text-success">Price: 4500 BDT</p>
+              <button
+                onClick={handleEnroll}
+                className="btn btn-outline-primary"
+              >
+                Enroll Now
+              </button>
             </div>
           </div>
         </div>
@@ -53,12 +64,15 @@ const PopularCourses = () => {
               <h5 class="card-title text-primary">
                 Robotics and Automation with JavaScript
               </h5>
-              <p class="card-text ">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-                pariatur libero ex eos quaerat consectetur, voluptates ipsam et
-                eligendi saepe.
-              </p>
-              <button className="btn btn-outline-primary">Enroll Now</button>
+              <p className="">By: Syed Farhan </p>
+              <p className="text-muted">Rating: 5/5</p>
+              <p className="text-success">Price: 3500 BDT</p>
+              <button
+                onClick={handleEnroll}
+                className="btn btn-outline-primary"
+              >
+                Enroll Now
+              </button>
             </div>
           </div>
         </div>

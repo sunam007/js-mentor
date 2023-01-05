@@ -1,7 +1,7 @@
 import React from "react";
 import CheckOut from "../CheckOut/CheckOut";
 
-const Classes = () => {
+const DashBoard = () => {
   return (
     <div>
       <CheckOut />
@@ -9,4 +9,4 @@ const Classes = () => {
   );
 };
 
-export default Classes;
+export default DashBoard;

@@ -2,7 +2,7 @@ import React from "react";
 
 const Testimonials = () => {
   return (
-    <div className="container p-5 mb-5">
+    <div className="container col-xxl-10 p-5 mb-5">
       <div className="py-3">
         <p className=" display-6 fw-normal text-center ">
           What Student's say about JS Mentor's Courses

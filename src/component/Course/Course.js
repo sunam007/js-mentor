@@ -5,7 +5,7 @@ const Course = ({ course }) => {
   const { name, image, price, instructor, star } = course;
   const navigate = useNavigate();
   const handleEnroll = () => {
-    navigate("/login");
+    navigate("/dashboard");
   };
   return (
     <div class="col">
@@ -16,10 +16,7 @@ const Course = ({ course }) => {
           <p className="">By: {instructor}</p>
           <p className="text-muted">Rating: {star}/5</p>
           <p className="text-success">Price: {price} BDT</p>
-          <p class="card-text">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
-          </p>
+
           <button onClick={handleEnroll} className="btn btn-outline-primary">
             Enroll Now
           </button>

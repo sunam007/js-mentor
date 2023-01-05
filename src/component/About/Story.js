@@ -2,14 +2,14 @@ import React from "react";
 
 const Story = () => {
   return (
-    <div class="row featurette">
+    <div class="row featurette mb-5">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Our Story</h2>
         <p>
           Information and technology have become an important part of our daily
           lives, but education still remains traditional. Js Mentor feels now is
           the right time to revolutionize technology in Bangladesh's education
-          sector esp. in IT and automation sector.
+          sector especially in IT and automation sector.
         </p>
         <p>
           Our course is designed to be user-friendly, easy-to-understand and
@@ -24,7 +24,7 @@ const Story = () => {
           src="https://i.ibb.co/mqQ7ccP/team.jpg"
           width={400}
           height={400}
-          alt=""
+          alt="team holding flag"
         />
       </div>
     </div>

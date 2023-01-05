@@ -1,6 +1,11 @@
 import React from "react";
+import { useNavigate } from "react-router";
 
 const CheckOut = () => {
+  const navigate = useNavigate();
+  const handlePlaceOrder = () => {
+    navigate("/login");
+  };
   return (
     <div className="container">
       <p className="display-6 lead mt-3">Billing Info</p>
@@ -139,7 +144,10 @@ const CheckOut = () => {
               </li>
             </ul>
             {/* Place order button */}
-            <button className="btn btn-lg btn-outline-primary w-100">
+            <button
+              onClick={handlePlaceOrder}
+              className="btn btn-lg btn-outline-primary w-100"
+            >
               Place Order
             </button>
           </div>
