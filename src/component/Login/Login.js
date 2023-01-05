@@ -4,10 +4,14 @@ import logo from "../../assets/images/logo.png";
 import "./Login.css";
 
 const Login = () => {
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <body class="text-center">
       <main class="form-signin">
-        <form>
+        <form onSubmit={handleFormSubmit}>
           <img class="mb-4" src={logo} alt="" width="72" height="57" />
           <h1 class="h3 mb-3 fw-normal">Please Login</h1>
 
