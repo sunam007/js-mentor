@@ -9,7 +9,7 @@ const Header = () => {
     navigate("/login");
   };
   return (
-    <header>
+    <header className="sticky-top">
       <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
         <div class="container-fluid">
           <Link class="navbar-brand d-inline-flex align-items-center" to="/">

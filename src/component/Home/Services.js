@@ -1,5 +1,5 @@
 import React from "react";
-import "./Services.css";
+import "./Services.module.css";
 const Services = () => {
   return (
     <div className="container col-xxl-8 px-4 py-4">
