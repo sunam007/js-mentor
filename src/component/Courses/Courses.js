@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Course from "../Course/Course";
+import PageTitle from "../PageTitle/PageTitle";
 
 const Courses = () => {
   const [courses, setCourses] = useState([]);
@@ -14,6 +15,8 @@ const Courses = () => {
   }, []);
   return (
     <div className="container col-xxl-8 px-4 py-5">
+      <PageTitle title="All Courses"></PageTitle>
+
       <div className="mb-5">
         <p class=" display-6 fw-normal text-center">
           Courses Available on JS Mentor

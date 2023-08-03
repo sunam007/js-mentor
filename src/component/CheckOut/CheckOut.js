@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router";
+import PageTitle from "../PageTitle/PageTitle";
 
 const CheckOut = () => {
   const navigate = useNavigate();
@@ -8,6 +9,7 @@ const CheckOut = () => {
   };
   return (
     <div className="container">
+      <PageTitle title="Checkout"></PageTitle>
       <p className="display-6 lead mt-3">Billing Info</p>
       <div className="row g-3">
         {/* Billing info */}

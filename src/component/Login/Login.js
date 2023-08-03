@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import PageTitle from "../PageTitle/PageTitle";
 import "./Login.css";
 
 const Login = () => {
@@ -8,8 +9,12 @@ const Login = () => {
     e.preventDefault();
   };
 
+  const handleGoogleSignIn = () => {};
+
   return (
     <body class="text-center">
+      <PageTitle title="Login"></PageTitle>
+
       <main class="form-signin">
         <form onSubmit={handleFormSubmit}>
           <img class="mb-4" src={logo} alt="" width="72" height="57" />

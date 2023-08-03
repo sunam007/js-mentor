@@ -1,9 +1,12 @@
 import React from "react";
+import PageTitle from "../PageTitle/PageTitle";
 import "./Support.css";
 
 const Support = () => {
   return (
     <div className="container px-4 py-3">
+      <PageTitle title="Support"></PageTitle>
+
       <div className="col-12 col-sm-12 col-md-6 col-xxl-6 mx-auto py-3">
         <p className=" display-6 fw-normal text-center fs-2">
           Having Problems ? Get Support

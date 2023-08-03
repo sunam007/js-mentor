@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router";
 import "./App.css";
 import About from "./component/About/About";
-import DashBoard from "./component/Classes/DashBoard";
+import DashBoard from "./component/Dashboard/DashBoard";
 import Courses from "./component/Courses/Courses";
 import Footer from "./component/Footer/Footer";
 import Header from "./component/Header/Header";

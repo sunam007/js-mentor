@@ -1,11 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.png";
+import PageTitle from "../PageTitle/PageTitle";
 import "./SignUp.css";
 
 const SignUp = () => {
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+  };
   return (
     <body class="text-center">
+      <PageTitle title="Sign Up"></PageTitle>
+
       <main class="form-signin">
         <form>
           <img class="mb-4" src={logo} alt="" width="72" height="57" />
@@ -39,7 +45,11 @@ const SignUp = () => {
             <label for="floatingConfirmPassword">Confirm Password</label>
           </div>
 
-          <button class="w-100 btn btn-lg btn-primary my-3" type="submit">
+          <button
+            onClick={handleFormSubmit}
+            class="w-100 btn btn-lg btn-primary my-3"
+            type="submit"
+          >
             Register
           </button>
           <p>
